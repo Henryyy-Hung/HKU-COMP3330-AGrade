@@ -1,7 +1,8 @@
 <div align="center">
-<img width="125" height="125" src="https://user-images.githubusercontent.com/78750074/208642882-308cb7e4-978a-43cf-9bbc-294e4b60e803.png" alt="A Grade"/>  
+<img width="125" height="125" src="https://user-images.githubusercontent.com/78750074/208642882-308cb7e4-978a-43cf-9bbc-294e4b60e803.png" alt="A Grade"/>
+<br/>
 A Grade
-<br>
+<br/>
 A Grade is a free and open source paradomo app for Android.
 </div>!
 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D0EFD9">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="16dp">
+
+            <ImageView
+                android:id="@+id/app_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/app_icon"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A Grade"
+                app:layout_constraintLeft_toRightOf="@id/app_icon"
+                app:layout_constraintTop_toTopOf="@id/app_icon"
+                app:layout_constraintBottom_toBottomOf="@id/app_icon"
+                android:layout_marginLeft="10dp"
+                android:textSize="25dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/black"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</RelativeLayout>

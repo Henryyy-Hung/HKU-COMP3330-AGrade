@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    >
+
+    <EditText
+        android:id="@+id/newTaskText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:hint="Task"
+        android:maxLength="20"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:maxLines="1"
+        android:inputType="text"
+        />
+
+
+    <ImageButton
+        android:id="@+id/dataButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/newTaskText"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/calendar"
+         />
+
+    <TextView
+        android:id="@+id/newTaskDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newTaskText"
+        android:layout_alignBaseline="@id/newTaskButton"
+        android:layout_toRightOf="@id/dataButton"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:hint="YYYY-MM-DD"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/newTaskButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@id/newTaskText"
+        android:layout_alignBaseline="@id/dataButton"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:text="@string/save"
+        android:textAllCaps="false"
+        android:textColor="@android:color/darker_gray"
+        android:enabled="false"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:shapeAppearance="@style/Rounded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:paddingHorizontal="20dp"
+        android:hint="Category Name"
+        app:boxStrokeColor="@color/all"
+        app:hintTextColor="@color/all"
+        android:layout_weight="1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/dialogue_task_adding_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@drawable/black_cursor"
+            android:inputType="text"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"/>
+    </LinearLayout>
+
+</LinearLayout>

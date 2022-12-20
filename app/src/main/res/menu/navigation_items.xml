@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_paradomo"
+        android:icon="@drawable/ic_baseline_access_time_24"
+        android:title="Paradomo"
+        />
+
+    <item
+        android:id="@+id/nav_todoList"
+        android:icon="@drawable/ic_baseline_checklist_24"
+        android:title="To Do List"
+        />
+
+    <item
+        android:id="@+id/nav_studyRoom"
+        android:icon="@drawable/ic_baseline_people_24"
+        android:title="Study Room"
+        />
+
+    <item
+        android:id="@+id/nav_statistics"
+        android:icon="@drawable/ic_baseline_query_stats_24"
+        android:title="Statistic"
+        />
+
+    <item
+        android:id="@+id/nav_ranking"
+        android:icon="@drawable/ic_baseline_auto_awesome_24"
+        android:title="Ranking"
+        />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings"
+        />
+
+</menu>

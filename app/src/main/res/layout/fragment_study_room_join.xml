@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".StudyRoomJoinFragment"
+    android:orientation="vertical"
+    android:background="@drawable/ranking_background">
+
+    <ImageView
+        android:id="@+id/study_room_join_turtle_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/turtle_original"
+        app:layout_constraintBottom_toTopOf="@+id/study_room_join_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/study_room_join_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join a Study Room Now"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/study_room_join_textInputLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/study_room_join_turtle_icon"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/study_room_join_textInputLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Study Room ID"
+        android:paddingHorizontal="20dp"
+        app:boxStrokeColor="@color/black"
+        app:hintTextColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/study_room_join_title"
+        app:layout_constraintBottom_toTopOf="@+id/study_room_join_joinButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:shapeAppearance="@style/Rounded">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/study_room_join_textInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textCursorDrawable="@drawable/black_cursor" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/study_room_join_warningText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FF1100"
+        android:textSize="12dp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintBottom_toTopOf="@+id/study_room_join_joinButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/study_room_join_textInputLayout"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/study_room_join_joinButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/all"
+        android:text="Join"
+        app:layout_constraintTop_toBottomOf="@id/study_room_join_textInputLayout"
+        app:layout_constraintBottom_toTopOf="@id/study_room_join_createText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/study_room_join_createText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Your Own Study Room?"
+        app:layout_constraintTop_toBottomOf="@id/study_room_join_joinButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/darkgrey"
+        android:textStyle="italic"
+        android:selectAllOnFocus="true"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

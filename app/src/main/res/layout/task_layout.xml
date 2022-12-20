@@ -1,0 +1,39 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="10dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <CheckBox
+            android:id="@+id/todoCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:paddingStart="8dp"
+            android:buttonTint="@color/all"
+            android:textStyle="bold"
+            tools:text="Go for it!"
+            tools:textSize="30dp"
+            />
+
+        <TextView
+            android:id="@+id/aTaskDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/todoCheckBox"
+            android:layout_alignParentRight="true"
+            android:text="date"
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

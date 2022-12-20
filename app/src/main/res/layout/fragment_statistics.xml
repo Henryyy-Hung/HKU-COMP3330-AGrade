@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".StatisticsFragment"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Focusing Time"
+                    android:textColor="@color/statistic_title_color"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Frequency"
+                                android:layout_gravity="center"
+                                android:textColor="@color/statistic_total_focusing_time_color"
+                                android:textSize="12dp"/>
+                            <TextView
+                                android:id="@+id/totalFocusingTimeFrequency"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textColor="@color/statistic_total_focusing_time_color"
+                                android:text="0"
+                                android:textSize="25dp"
+                                android:textStyle="bold"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Time (Hrs)"
+                                android:layout_gravity="center"
+                                android:textColor="@color/statistic_total_focusing_time_color"
+                                android:textSize="12dp"/>
+                            <TextView
+                                android:id="@+id/totalFocusingTimeHours"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textColor="@color/statistic_total_focusing_time_color"
+                                android:text="0"
+                                android:textSize="25dp"
+                                android:textStyle="bold"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Day Avg. (Hrs)"
+                                android:layout_gravity="center"
+                                android:textColor="@color/statistic_total_focusing_time_color"
+                                android:textSize="12dp"/>
+                            <TextView
+                                android:id="@+id/totalFocusingTimeDailyAvgHours"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textColor="@color/statistic_total_focusing_time_color"
+                                android:text="0"
+                                android:textSize="25dp"
+                                android:textStyle="bold"
+                                />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Daily Focusing Distribution (Mins)"
+                    android:textColor="@color/statistic_title_color"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="10dp"/>
+
+                    <com.github.mikephil.charting.charts.PieChart
+                        android:id="@+id/dailyFocusingDistributionPieChart"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_gravity="center" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Weekly Focusing Distribution (Hours)"
+                        android:textColor="@color/statistic_title_color"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="10dp"/>
+
+                    <com.github.mikephil.charting.charts.PieChart
+                        android:id="@+id/weeklyFocusingDistributionPieChart"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Monthly Focusing Trend"
+                        android:textColor="@color/statistic_title_color"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="10dp"/>
+
+                    <com.github.mikephil.charting.charts.LineChart
+                        android:id="@+id/monthlyFocusingTrendLineChart"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Annually Focusing Trend"
+                        android:textColor="@color/statistic_title_color"
+                        android:textSize="15dp" />
+
+                    <com.github.mikephil.charting.charts.LineChart
+                        android:id="@+id/annuallyFocusingTrendLineChart"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

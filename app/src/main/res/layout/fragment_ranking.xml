@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RankingFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ranking_background"
+            >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp">
+
+            <LinearLayout
+                android:id="@+id/rank_first_runner_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/rank_first_runner_up_icon"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/profile_pic"
+                    android:layout_gravity="center"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#FEDA15"/>
+                <TextView
+                    android:id="@+id/rank_first_runner_up_university"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    android:text="University"
+                    />
+                <TextView
+                    android:id="@+id/rank_first_runner_up_faculty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:text="Faculty"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/rank_first_runner_up_hours"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="0"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text=" hours"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rank_second_runner_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/rank_first_runner_up">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/rank_second_runner_up_icon"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/profile_pic"
+                    android:layout_gravity="center"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#bdc1c1"/>
+                <TextView
+                    android:id="@+id/rank_second_runner_up_university"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    android:text="University"
+                    />
+                <TextView
+                    android:id="@+id/rank_second_runner_up_faculty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:text="Faculty"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/rank_second_runner_up_hours"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="0"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" hours"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rank_third_runner_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/rank_first_runner_up"
+                app:layout_constraintRight_toRightOf="parent">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/rank_third_runner_up_icon"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/profile_pic"
+                    android:layout_gravity="center"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#EAA85F"/>
+                <TextView
+                    android:id="@+id/rank_third_runner_up_university"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    android:text="University"
+                    />
+                <TextView
+                    android:id="@+id/rank_third_runner_up_faculty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:text="Faculty"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/rank_third_runner_up_hours"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text=" hours"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/fragment_ranking_card_container"
+                android:orientation="vertical"
+                android:paddingVertical="10dp">
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</FrameLayout>

@@ -32,7 +32,7 @@ A Grade is a free and open source paradomo app for Android.
 
 # Interface
 
-![未标题-2](https://user-images.githubusercontent.com/78750074/208651798-bb0a9862-fcfb-4955-b36a-cc9b6a306db7.png)
+![未标题-2](https://user-images.githubusercontent.com/78750074/208655360-2ae164ab-93da-4f8f-be43-f83d8df22825.png)
 
 
 

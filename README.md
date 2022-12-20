@@ -1,17 +1,15 @@
 <div align="center">
 <img width="125" height="125" src="https://user-images.githubusercontent.com/78750074/208642882-308cb7e4-978a-43cf-9bbc-294e4b60e803.png" alt="A Grade"/>
-
+<br/>
 A Grade
 <br/>
 A Grade is a free and open source paradomo app for Android.
-</div>!
+</div>
 
 [![](https://img.shields.io/badge/-Contents:-696969.svg)](#contents) [![](https://img.shields.io/badge/-Function-F5F5F5.svg)](#Function-主要功能-) [![](https://img.shields.io/badge/-Download-F5F5F5.svg)](#Download-下载-) [![](https://img.shields.io/badge/-Community-F5F5F5.svg)](#Community-交流社区-) [![](https://img.shields.io/badge/-API-F5F5F5.svg)](#API-) [![](https://img.shields.io/badge/-Other-F5F5F5.svg)](#Other-其他-) [![](https://img.shields.io/badge/-Grateful-F5F5F5.svg)](#Grateful-感谢-) [![](https://img.shields.io/badge/-Interface-F5F5F5.svg)](#Interface-界面-)
 
->新用户？
->
->软件不提供内容，需要您自己手动添加，例如导入书源等。
->看看 [官方帮助文档](https://www.yuque.com/legado/wiki)，也许里面就有你要的答案。
+>Developer: Hung Ka Hing, Zhao Yiming
+>Contributor: Xie Changhe, Gao Ruilin, Li Zhiqian
 
 # Function-主要功能 [![](https://img.shields.io/badge/-Function-F5F5F5.svg)](#Function-主要功能-)
 [English](English.md)

@@ -8,7 +8,7 @@ A Grade / A龜
 A Grade is a free and open source paradomo app for Android.
 </div>
 
-[Main-Function](##Main-Function)
+[`Main-Function`](##Main-Function)
 
 `Download` `Grateful` `Interface` 
 

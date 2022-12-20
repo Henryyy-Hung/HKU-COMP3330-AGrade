@@ -8,6 +8,8 @@ A Grade / A龜
 A Grade is a free and open source paradomo app for Android.
 </div>
 
+'Interface'
+
 ## Main Function
 
 1. Start a paradomo with custom category (e.g. violin).

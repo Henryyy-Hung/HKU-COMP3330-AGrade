@@ -1,7 +1,8 @@
 <div align="center">
-<img width="125" height="125" src="https://user-images.githubusercontent.com/78750074/208642490-335b7c63-abb7-4df6-8f5e-377a816e4202.png" alt="A Grade"/>  
+<img width="125" height="125" src="https://user-images.githubusercontent.com/78750074/208642882-308cb7e4-978a-43cf-9bbc-294e4b60e803.png" alt="A Grade"/>  
   
 A Grade
+
 <br>
 <a href="https://gedoor.github.io" target="_blank">gedoor.github.io</a> / <a href="https://www.legado.top/" target="_blank">legado.top</a>
 <br>

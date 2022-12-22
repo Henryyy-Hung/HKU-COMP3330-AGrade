@@ -37,7 +37,7 @@ Ranking|View the ranking of your school and faculty.
 
 # Grateful
 
->Developer: Hung Ka Hing, Zhao Yiming
->
->Contributor: Xie Changhe, Gao Ruilin, Li Zhiqian
+>Front end: Hung Ka Hing
+>Back end: Zhao Yiming
+>Other Contributors: Xie Changhe, Gao Ruilin, Li Zhiqian
 

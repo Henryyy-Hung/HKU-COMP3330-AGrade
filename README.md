@@ -27,7 +27,7 @@ Ranking|View the ranking of your school and faculty.
 
 # Download
 
-[Relase](https://github.com/Henryyy-Hung/HKU-COMP3330-AGrade/raw/master/app/release/app-release.apk)|
+[Release(.apk)](https://github.com/Henryyy-Hung/HKU-COMP3330-AGrade/raw/master/app/release/app-release.apk)|
 --------------------------------------------------------|
 
 # Interface

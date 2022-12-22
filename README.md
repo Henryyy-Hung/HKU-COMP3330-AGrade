@@ -12,7 +12,7 @@ A Grade is a free and open source paradomo app for Android.
 <br/>
 </div>
 
-[`Main-Function`](#Main-Function) [`Download`](#Download) [`Grateful`](#Grateful) [`Interface`](#Interface)
+[`Main-Function`](#Main-Function) [`Download`](#Download) [`Interface`](#Interface) [`Grateful`](#Grateful) 
 
 
 # Main-Function
@@ -28,15 +28,14 @@ A Grade is a free and open source paradomo app for Android.
 [Release](https://github.com/Henryyy-Hung/HKU-COMP3330-AGrade/raw/master/app/release/app-release.apk)|
 --------------------------------------------------------|
 
-# Grateful
-
->Developer: Hung Ka Hing, Zhao Yiming
->
->Contributor: Xie Changhe, Gao Ruilin, Li Zhiqian
-
 # Interface
 
 ![未标题-2](https://user-images.githubusercontent.com/78750074/208655360-2ae164ab-93da-4f8f-be43-f83d8df22825.png)
 
 
+# Grateful
+
+>Developer: Hung Ka Hing, Zhao Yiming
+>
+>Contributor: Xie Changhe, Gao Ruilin, Li Zhiqian
 

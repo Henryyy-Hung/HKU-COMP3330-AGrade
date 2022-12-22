@@ -25,7 +25,7 @@ A Grade is a free and open source paradomo app for Android.
 
 # Download
 
-[Release](https://github.com/Henryyy-Hung/HKU-COMP3330-AGrade/raw/master/app/release/app-release.apk)|
+[APK](https://github.com/Henryyy-Hung/HKU-COMP3330-AGrade/raw/master/app/release/app-release.apk)|
 --------------------------------------------------------|
 
 # Interface

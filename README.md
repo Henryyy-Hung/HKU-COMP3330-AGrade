@@ -19,19 +19,11 @@ A Grade is a free and open source paradomo app for Android.
 
 Function|Detail
 --|--|
-Paradomo|Start a paradomo with custom category (e.g. violin).
-To Do List|Add your task into TO-DO with name and date.
-Study Room|Join a study room to study with your friend.
-Statistics|View your statistics on study distribution and trend.
+Paradomo|Start a timer with custom category (e.g. violin).
+To Do List|Add task with name and date.
+Study Room|View study time of your friend.
+Statistics|View study distribution and trend.
 Ranking|View the ranking of your school and faculty.
-
-功能|詳情|
---|--|
-番茄鐘|自定義事項並開啟番茄鐘|
-待辦|添加待辦事項及相應日期|
-自習室|查看朋友的學習時長|
-數據|查看學習時間分佈和趨勢|
-排名|查看學院排名|
 
 # Download
 

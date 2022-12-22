@@ -17,13 +17,13 @@ A Grade is a free and open source paradomo app for Android.
 
 # Main-Function
 
-#|Function|
+Function|Detail|
 --|--|
-1|Start a paradomo with custom category (e.g. violin).|
-2|Add your task into TO-DO with name and date.|
-3|Join a study room to study with your friend.|
-4|View your statistics on study distribution and trend.|
-5|View the ranking of your school and faculty.|
+Paradomo|Start a paradomo with custom category (e.g. violin).|
+To Do List|Add your task into TO-DO with name and date.|
+Study Room|Join a study room to study with your friend.|
+Statistics|View your statistics on study distribution and trend.|
+Ranking|View the ranking of your school and faculty.|
 
 
 # Download

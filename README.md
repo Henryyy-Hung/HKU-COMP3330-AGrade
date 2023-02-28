@@ -19,7 +19,7 @@ A Grade is a free and open source paradomo app for Android.
 
 Function|Detail
 --|--|
-Paradomo|Start a timer with custom category (e.g. violin).
+Paradomo|Start a timer with custom category (e.g. practice violin).
 To Do List|Add task with name and date.
 Study Room|View study time of your friend.
 Statistics|View study distribution and trend.

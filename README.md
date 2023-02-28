@@ -44,4 +44,6 @@ Ranking|View the ranking of your school and faculty.
 >Back end: Zhao Yiming
 >
 >Other Contributors: Xie Changhe, Gao Ruilin, Li Zhiqian
+>
+> ———— A group of student who would like to get a A grade in the course.
 

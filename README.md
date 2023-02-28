@@ -7,7 +7,7 @@
 <br/>
 A Grade / A龜
 <br/>
-AGrade is a free and open source time planning app for Android
+AGrade is a free and open source time planning app for Android.
 <br/>
 <br/>
 </div>

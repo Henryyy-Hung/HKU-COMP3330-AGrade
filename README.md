@@ -37,6 +37,8 @@ Ranking|View the ranking of your school and faculty.
 
 # Grateful
 
+>Architecture: Hung Ka Hing
+>
 >Front end: Hung Ka Hing
 >
 >Back end: Zhao Yiming

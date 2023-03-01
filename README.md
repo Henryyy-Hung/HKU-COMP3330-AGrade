@@ -1,6 +1,5 @@
 # A Grade
-
-![icon_android](https://user-images.githubusercontent.com/78750074/222111786-e7025a8a-fa87-4a8f-b795-a2e19acd5b80.png) 
+![icons8-android-os-32](https://user-images.githubusercontent.com/78750074/222112649-9c0981bf-80cb-4ba8-aae5-5163ab4ee5dd.png)
 ![icons8-java-32](https://user-images.githubusercontent.com/78750074/222112419-7dab5709-9692-440f-8176-5bcf3107cc74.png)
 ![icons8-firebase-32](https://user-images.githubusercontent.com/78750074/222112155-1c26e50a-f1e7-4ad0-9887-544fdf6348b9.png)
 

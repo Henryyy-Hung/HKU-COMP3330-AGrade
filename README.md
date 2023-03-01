@@ -3,7 +3,6 @@
 ![icons8-java-32](https://user-images.githubusercontent.com/78750074/222112419-7dab5709-9692-440f-8176-5bcf3107cc74.png)
 ![icons8-firebase-32](https://user-images.githubusercontent.com/78750074/222112155-1c26e50a-f1e7-4ad0-9887-544fdf6348b9.png)
 <img src="https://user-images.githubusercontent.com/78750074/222115510-b5cf5cec-afad-4bdc-9a91-58b5478a2de8.svg" alt="#" align="right">
-<img src="https://user-images.githubusercontent.com/78750074/222116140-d20bd978-1514-44ee-bf4e-e188f3f5215d.svg" alt="#" align="right">
 
 <div align="center">
 <img width="125" height="125" src="https://user-images.githubusercontent.com/78750074/208642882-308cb7e4-978a-43cf-9bbc-294e4b60e803.png" alt="A Grade"/>

@@ -1,6 +1,6 @@
 # A Grade
 
-![icon_android](https://github.com/gedoor/gedoor.github.io/blob/master/static/img/legado/icon_android.png)
+![icon_android](https://user-images.githubusercontent.com/78750074/222111786-e7025a8a-fa87-4a8f-b795-a2e19acd5b80.png)
 
 <div align="center">
 <img width="125" height="125" src="https://user-images.githubusercontent.com/78750074/208642882-308cb7e4-978a-43cf-9bbc-294e4b60e803.png" alt="A Grade"/>

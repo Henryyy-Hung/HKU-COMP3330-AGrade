@@ -14,8 +14,9 @@ AGrade is a free and open source time planning app for Android.
 <br/>
 </div>
 
+<div align="center">
 [`Main-Function`](#Main-Function) [`Download`](#Download) [`Interface`](#Interface) [`Grateful`](#Grateful) 
-
+</div>
 
 # Main-Function
 
